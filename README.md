@@ -10,7 +10,7 @@ Buffalo Human Evolutionary Morphology Lab (BHEML)
 **699 3D primate shoulder girdle specimens** (clavicle, scapula, humerus)  
 - GPA alignment → PCA → Procrustes ANOVA → Mantel tests (10,000 perms)  
 - Identified *Hylobates lar* as extreme locomotor outlier  
-- [Download PDF](masters_project_pectoral_girdle.pdf) *(available upon request)*  
+- [Download PDF](masters_project_pectoral_girdle.pdf)  
 
 ---
 
