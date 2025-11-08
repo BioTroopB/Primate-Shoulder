@@ -2,6 +2,7 @@
 
 **Kevin P. Klier**  
 M.A. Biological Anthropology, University at Buffalo  
+STEM-Designated Program (DHS CIP 45.0201)  
 Buffalo Human Evolutionary Morphology Lab (BHEML)  
 
 ---
