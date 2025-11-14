@@ -1,50 +1,77 @@
-# Primate Shoulder AI — Data Science Workflow
+# Primate Shoulder Girdle Morphometrics  
 
-**Kevin P. Klier**  
-M.A. Biological Anthropology, University at Buffalo  
-STEM-Designated Program (DHS CIP 45.0201)  
+**M.A. Thesis + Senior-Honors Thesis – Kevin P. Klier**  
+University at Buffalo  
+
+**STEM-Designated Program (DHS CIP 45.0201)**  
 Buffalo Human Evolutionary Morphology Lab (BHEML)  
 
 ---
 
-## Master's Project (Primary)  
-**699 3D primate shoulder girdle specimens** (clavicle, scapula, humerus)  
-- GPA alignment → PCA → Procrustes ANOVA → Mantel tests (10,000 perms)  
-- Identified *Hylobates lar* as extreme locomotor outlier  
-- [Download PDF](masters_project_pectoral_girdle.pdf) *(available upon request)*  
+## What’s Here  
+
+| File | Description |
+|------|-------------|
+| `masters_project_pectoral_girdle.pdf` | Full 53-page **M.A. thesis** (unpublished) – *A Geometric Morphometric Analysis of the Primate Pectoral Girdle* |
+| `undergrad_thesis_clavicle.pdf` | **Senior-honors thesis** (May 2021) – *A Geometric Morphometric Analysis of the Primate Clavicle* |
+| `PCA_plot.png` | Principal-component scatter plot (master’s) |
+| `neighbor_joining_tree.png` | Phylogenetic signal tree (master’s) |
+
+All landmark placement, GPA, PCA, and statistical analyses performed **by Kevin P. Klier**.
 
 ---
 
-## Undergrad Senior Thesis (Supporting)  
-**215 right clavicles** from 6 catarrhine species  
-- First geometric morphometric analysis (7 landmarks)  
-- Found *Gorilla gorilla* highest disparity, *Hylobates lar* lowest  
-- [Download PDF](undergrad_thesis_clavicle.pdf)  
+## Data & Credits  
+
+### 3-D Scan Collection (Master’s Thesis – Table 2.1, p. 13)  
+Scans performed by:  
+
+- Brittany Kenyon-Flatt  
+- Evan Simons  
+- Marianne Cooper  
+- Amandine Eriksen  
+- **Kevin P. Klier** (*Macaca mulatta*)  
+
+### Museums / Collections  
+- American Museum of Natural History (AMNH)  
+- Cleveland Museum of Natural History (CMNH)  
+- Harvard Museum of Comparative Zoology (MCZ)  
+- Field Museum of Natural History (FMNH)  
+- University at Buffalo Primate Skeletal Collection (UBPSC)  
+- Neil C. Tappen Collection (NCT)  
+
+### Committee (Master’s)  
+- **Noreen von Cramon-Taubadel, Ph.D. (Chair)**  
+- **Nicholas J. Holowka, Ph.D.**  
+
+### Equipment & Software  
+Full details (3D scanners, Landmark Editor, MorphoJ, R, etc.) are in **Materials & Methods** of the thesis PDFs.
+
+### Funding  
+Research conducted at **BHEML**, supported by the **National Science Foundation**.
 
 ---
 
-## Workflow (Reproducible in MorphoJ & PAST)  
-1. **Data**: 3D scans → `.dta` landmarks  
-2. **Preprocessing**: GPA  
-3. **Analysis**: PCA, ANOVA, Mantel  
-4. **Validation**: Phylogenetic & locomotor signals  
+## Current AI Work  
+
+Extending the **master’s dataset** into **BoneID.ai** — an open-source ML classifier for **species, sex, and side** from 3D shoulder bones.  
+**No undergraduate data will be used.**  
+Code, models, and Streamlit app in a **separate repo** (to be created).  
+AI development assisted by **Grok (xAI)**.
 
 ---
 
-## Tools  
-- MorphoJ, Landmark 3.6, FlexScan3D, PAST, PASSaGE  
+## License  
+
+- **Code / AI extensions** (future repo): **MIT License**  
+  → Free to use, modify, and share (even commercially) with attribution.  
+- **Thesis PDFs & figures**: **CC-BY 4.0**  
+  → Share and adapt freely with attribution to Kevin P. Klier.
 
 ---
 
-## Visualizations  
-
-![Humerus PCA Plot](Scatter%20Plot%20and%20Wireframe%20Humeri%203.png)  
-*PC1 vs PC2 — Hylobates lar = extreme outlier (ricochetal brachiation)*  
-
-![Neighbor-Joining Tree](Neighbor-joining%20tree.png)  
-*Phylogenetic signal from Procrustes distances*  
+*“From 20 years of Navy IT to AI anthropology – one bone at a time.”*  
+— **Kevin P. Klier**, IT1 (EXW/SW/AW), USN (Ret.)  
+M.A. Biological Anthropology, University at Buffalo  
 
 ---
-
-**No custom code. 100% original data. Methods follow published protocols.**  
-*IBM AI Fundamentals + Capstone certified (Nov 2025)*
