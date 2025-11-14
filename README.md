@@ -45,7 +45,7 @@ Scans performed by:
 - **Nicholas J. Holowka, Ph.D.**  
 
 ### Equipment & Software  
-Full details (3D scanners, Landmark Editor, MorphoJ, R, etc.) are in **Materials & Methods** of the thesis PDFs.
+Full details in **Materials & Methods** of the thesis PDFs.
 
 ### Funding  
 Research conducted at **BHEML**, supported by the **National Science Foundation**.
@@ -70,8 +70,8 @@ AI development assisted by **Grok (xAI)**.
 
 ---
 
-*“From 20 years of Navy IT to AI anthropology – one bone at a time.”*  
-— **Kevin P. Klier**, IT1 (EXW/SW/AW), USN (Ret.)  
+*“Bridging biological anthropology and artificial intelligence through geometric morphometrics.”*  
+— **Kevin P. Klier**  
 M.A. Biological Anthropology, University at Buffalo  
 
 ---
