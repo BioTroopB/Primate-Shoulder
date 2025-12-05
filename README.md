@@ -1,3 +1,11 @@
+---
+title: Primate Shoulder Girdle Morphometrics
+emoji: 🦴
+colorFrom: blue
+colorTo: green
+pinned: false
+---
+
 # Primate Shoulder Girdle Morphometrics  
 
 **M.A. Thesis + Senior-Honors Thesis – Kevin P. Klier**  
@@ -18,6 +26,21 @@ Buffalo Human Evolutionary Morphology Lab (BHEML)
 | `neighbor_joining_tree.png` | Phylogenetic signal tree (master’s) |
 
 All landmark placement, GPA, PCA, and statistical analyses performed **by Kevin P. Klier**.
+
+---
+
+## AI Extension — PrimateOsteoID.ai
+
+This M.A. dataset has been extended into **PrimateOsteoID.ai**, a fully automated, open-source AI classifier that predicts **species, sex, and side** from raw 3D shoulder bone scans — **no manual landmarking required**.
+
+**Live Demo (v1 — stable public version)**  
+→ https://huggingface.co/spaces/BioTroopB/PrimateOsteoID
+
+**Latest version (v2 — under active refinement)**  
+→ Private (improved auto-landmarking and raw-scan handling)
+
+**Full code + models**  
+→ https://github.com/BioTroopB/OsteoID
 
 ---
 
@@ -52,21 +75,9 @@ Research conducted at **BHEML**, supported by the **National Science Foundation*
 
 ---
 
-## Current AI Work  
-
-Extended the **master’s dataset** into **PrimateOsteoID.ai** — an open-source ML classifier for **species, sex, and side** from 3D shoulder bones.  
-**No undergraduate data was used.**  
-Code, models, and Streamlit app in **separate repo**.  
-AI development assisted by **Grok (xAI)**.
-
----
-
 ## License  
 
-- **Code / AI extensions** (future repo): **MIT License**  
-  → Free to use, modify, and share (even commercially) with attribution.  
-- **Thesis PDFs & figures**: **CC-BY 4.0**  
-  → Share and adapt freely with attribution to Kevin P. Klier.
+- **Thesis PDFs & figures**: **CC-BY 4.0** — share and adapt freely with attribution to Kevin P. Klier.
 
 ---
 
